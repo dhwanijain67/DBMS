@@ -5,3 +5,7 @@ CREATE TABLE job_histry (
     job_id VARCHAR(10),
     department_id INT
 );
+
+INSERT INTO job_histry
+VALUES (101, TO_DATE('01/01/25', 'DD/MM/YY'),
+        TO_DATE('27/10/26', 'DD/MM/YY'), 'IT_PROG', 10);
